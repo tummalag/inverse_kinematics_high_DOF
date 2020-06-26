@@ -18,8 +18,8 @@ metric = 0.01
 # Destination
 #e_des = [-0.04127370851174543,-0.1709845251223143]
 #e_l_des = [0.04127370851174543,-0.1709845251223143]
-e_des_r = [-0,0.25]
-e_des_l = [0,0.35]
+e_des_r = [-0.4,0.0]
+e_des_l = [0.4,0.0]
 
 # Initial theta
 t_r = [0,0,0,0]
@@ -27,14 +27,14 @@ t_l = [0,0,0,0]
 
 # Error
 err_r,err_l = 10,10
-threshold = 0.001
+threshold = 0.01
 # Time period
 dt = 0.001
 
 dt0, dt1, dt2, dt3 = (0,0,0,0), (0,dt,0,0), (0,0,dt,0), (0,0,0,dt)
 
 # linearisation val
-e_lin = 0.001
+e_lin = 0.01
 
 # Restrictions
 # Right arm
